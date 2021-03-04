@@ -15,7 +15,7 @@ def main():
         print(f'Gross pay: ${gross_pay:,.2f}')
     except ValueError:
         print('ERROR: Hours worked and hourly pay rate must')
-        print('be valid integers.')
+        print('be valid number.')
 
 # Call the main function.
 if __name__ == '__main__':

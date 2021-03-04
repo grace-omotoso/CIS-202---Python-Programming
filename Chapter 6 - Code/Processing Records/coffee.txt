@@ -1,2 +1,4 @@
 Brazillian Dark Roast
-18
+10
+Sumatra Medium Roast
+25.0

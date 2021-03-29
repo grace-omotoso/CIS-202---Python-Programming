@@ -1,6 +1,7 @@
 string = 'Four score and seven years ago'
-position = string.find('seven')
+string_to_find = 'eight'
+position = string.find(string_to_find)
 if position != -1:
-    print('The word "seven" was found at index', position)
+    print(f'The word {string_to_find} was found at index {position}')
 else:
-    print('The word "seven" was not found.')
+    print(f'The word {string_to_find} was not found, position is {position}.')
